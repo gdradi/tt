@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/coreModule" />
+            <option value="$PROJECT_DIR$/equipmentTestApp" />
+            <option value="$PROJECT_DIR$/equipmentTestAppBleUart" />
+            <option value="$PROJECT_DIR$/equipmentTestLibrary" />
+            <option value="$PROJECT_DIR$/equipmentTestMyRun" />
+            <option value="$PROJECT_DIR$/equipmentTestPhotoApp" />
+            <option value="$PROJECT_DIR$/equipmentTestTagsTestApp" />
+            <option value="$PROJECT_DIR$/myCyClingTestApp" />
+            <option value="$PROJECT_DIR$/myRowTestApp" />
+            <option value="$PROJECT_DIR$/systemModule" />
+            <option value="$PROJECT_DIR$/workoutModule" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

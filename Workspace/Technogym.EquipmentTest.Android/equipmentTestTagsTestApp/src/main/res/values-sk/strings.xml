@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="completed_test_message">Test kódov a tagov dokonceného stroja.</string>
+    <string name="completed_test_title">Test ukoncený</string>
+    <string name="configuring_error">Chyba pocas konfigurácie. Skontrolujte pripojenie zariadenia.</string>
+    <string name="error">Chyba</string>
+    <string name="execute_action_test">Štart testu</string>
+    <string name="new_test">Nový test</string>
+    <string name="nfc_disabled">NFC neplatný. Otvorte nastavenia a povolte ich.</string>
+    <string name="nfc_not_valid_error">NFC nefunkcné. Skontroluj a vyskúšaj znovu.</string>
+    <string name="nfc_scan">Skenovanie NFC</string>
+    <string name="nfc_scanning">Hladanie Tag NFC...</string>
+    <string name="no_code_test_found">Na tomto stroji nemá byt testovaný QR kód a  NFC. Skontroluj a over.</string>
+    <string name="no_nfc">Zariadenie nie je vybavené NFC</string>
+    <string name="ok_text">Ok</string>
+    <string name="placeholder">" "</string>
+    <string name="qr_code_not_valid_error">nenacítaný QR kód . Skontroluj a skús znovu.</string>
+    <string name="qrcode_scan">Skenovanie QR kódu</string>
+    <string name="save_action_result_progress_waiting">Uloženie výsledku...</string>
+    <string name="save_completed_error">Chyba pocas ukladania. Skús znovu.</string>
+    <string name="save_completed_success">Uloženie úspešne dokoncené</string>
+    <string name="save_title">Ukladanie ukoncené</string>
+    <string name="scan">Skenovanie</string>
+    <string name="serialnumber_label">Sériové císlo</string>
+    <string name="services_error">Chyba pri komunikácii so službami. Skontrolujte pripojenie zariadenia.</string>
+    <string name="setup_session_progress_waiting">Prebieha konfigurácia...</string>
+    <string name="waring">Pozor</string>
+    <string name="next">Ďalšie</string>
+    <string name="retry">Skúsiť znova</string>
+    <string name="qr_code_valid_title">QR kód platný (%1$d/%2$d)</string>
+    <string name="qr_code_valid_msg">QR kód je platný</string>
+    <string name="nfc_valid_msg">Čítaná hodnota NFC tagu je platná</string>
+    <string name="nfc_valid_title">Platná TAG (%1$d/%2$d)</string>
+</resources>

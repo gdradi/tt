@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="header_orange_label_color">#f0ad4e</color>
+    <color name="background_blue_color">#2b3e50</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#F0AD4E</color>
+</resources>

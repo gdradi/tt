@@ -1,0 +1,42 @@
+<resources>
+
+    <string name="app_name" translatable="false">Collaudo Tags - 2.0.15 IT</string>
+    <string name="new_test">Nuovo Test</string>
+
+    <string name="serialnumber_label">Serial Number</string>
+    <string name="scan">Scan</string>
+    <string name="placeholder">" "</string>
+
+    <string name="qrcode_scan">Scan QR Code</string>
+    <string name="nfc_scan">Scan NFC</string>
+
+    <string name="waring">Attenzione</string>
+    <string name="no_code_test_found">Su questa macchina non deve essere testato alcun QR Code o NFC. Controllare e verificare.</string>
+
+    <string name="qr_code_not_valid_error">QR Code letto non conforme. Controllare e riprovare.</string>
+    <string name="nfc_not_valid_error">NFC letto non conforme. Controllare e riprovare.</string>
+    <string name="completed_test_title">Test Completato</string>
+    <string name="completed_test_message">Test dei codici e tag della macchina completato.</string>
+    <string name="ok_text">Ok</string>
+    <string name="next">Avanti</string>
+    <string name="retry">Riprova</string>
+    <string name="nfc_valid_title">Tag valido (%1$d/%2$d)</string>
+    <string name="nfc_valid_msg">Il valore del tag NFC letto è valido</string>
+    <string name="qr_code_valid_title">QRCode valido (%1$d/%2$d)</string>
+    <string name="qr_code_valid_msg">Il valore del codice QRCode letto è corretto</string>
+
+    <string name="setup_session_progress_waiting">Configurazione in corso...</string>
+    <string name="save_title">Salvataggio Completato</string>
+    <string name="save_action_result_progress_waiting">Salvataggio risultato...</string>
+    <string name="save_completed_error">Errore durante il salvataggio. Riprovare.</string>
+    <string name="save_completed_success">Salvataggio completato con successo</string>
+    <string name="execute_action_test">Start Test</string>
+    <string name="nfc_scanning">Ricerca Tag NFC...</string>
+
+    <string name="configuring_error">Errore durante la configurazione. Verificare la connessione del dispositivo.</string>
+    <string name="services_error">Errore durante la comunicazione con i servizi. Verificare la connessione del dispositivo.</string>
+    <string name="error">Errore</string>
+    <string name="no_nfc">Device non provvisto di NFC</string>
+    <string name="nfc_disabled">NFC disabilitato. Aprire le impostazioni ed abilitarlo.</string>
+
+</resources>

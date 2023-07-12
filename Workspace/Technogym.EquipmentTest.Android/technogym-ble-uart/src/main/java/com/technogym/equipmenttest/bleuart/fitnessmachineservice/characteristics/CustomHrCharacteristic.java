@@ -1,0 +1,25 @@
+package com.technogym.equipmenttest.bleuart.fitnessmachineservice.characteristics;
+
+import android.bluetooth.BluetoothGattCharacteristic;
+
+import com.technogym.equipmenttest.bleuart.btlesupport.BaseCharacteristic;
+
+/**
+ * Created by sventurini on 03/02/2017.
+ */
+
+public class CustomHrCharacteristic extends BaseCharacteristic {
+
+    /**
+     * @param characteristic
+     */
+    public CustomHrCharacteristic(BluetoothGattCharacteristic characteristic) {
+        super(characteristic.getUuid(), characteristic.getProperties(), characteristic.getPermissions(), characteristic);
+    }
+
+    @Override
+    public boolean elabData() {
+        return true;
+    }
+
+}

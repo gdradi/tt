@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="scan">Scan</string>
+    <string name="placeholder">" "</string>
+    <string name="serialnumber_label">Seriove cislo</string>
+    <string name="execute_capture">Start</string>
+    <string name="setup_session_progress_waiting">Nastavenie...</string>
+    <string name="configuring_error">Chyba pocas nastavovania. Prosim, skontrolujte pripojenie zariadenia.</string>
+    <string name="error">Chyba</string>
+    <string name="ok_text">Ok</string>
+    <string name="no_actions_found">Nenasli sa ziadne obrazky, skontrolujte vybavenie.Prosim skontrolujte testovacie nastavenia.</string>
+    <string name="test_text">Popis testu</string>
+    <string name="upload_error">Chyba pocas nahravania fotky. Prosim, skontrolujte pripojenie zariadenia a skuste znova.</string>
+    <string name="saving_image_progress">Ukladanie fotky...</string>
+    <string name="saved_image_ok">Fotka uspesne ulozena</string>
+    <string name="save_image_title">Ukladanie fotky</string>
+    <string name="saved_image_ko">Nahravanie fotky zlyhalo. Prosim, skontrolujte pripojenie a skuste to znova.</string>
+    <string name="photo_capture_completion_title">Fotka zachytena.</string>
+    <string name="photo_capture_completion_message">Zachytavanie fotky uspesne.</string>
+    <string name="help_menu_item_title">Pomoc</string>
+</resources>

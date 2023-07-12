@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">EquipmentTestLibrary</string>
+    <string name="hint_operator_code">Scansiona il barcode</string>
+    <string name="hint_serial_number">Scansiona il barcode</string>
+    <string name="serial_number">SERIAL NUMBER:</string>
+    <string name="operator_code">CODICE OPERATORE:</string>
+
+</resources>

@@ -1,0 +1,48 @@
+apply plugin: 'com.android.application'
+
+android {
+    //compileSdkVersion 21
+    compileSdkVersion 24
+    //buildToolsVersion "23.0.3"
+    //buildToolsVersion "25.0.0"
+    buildToolsVersion "26.0.2"
+
+    defaultConfig {
+        applicationId "com.technogym.equipenttest.mycycling"
+        minSdkVersion 19
+        //targetSdkVersion 19
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    //configurations {
+    //    all*.exclude group: 'com.android.support', module: 'support-v4'
+    //    all*.exclude group: 'com.android.support', module: 'support-annotations'
+    //}
+}
+
+dependencies {
+    implementation 'com.google.guava:guava:17.0'
+    implementation 'no.nordicsemi.android:dfu:1.1.1'
+
+    // Zxing libraries
+    implementation 'com.journeyapps:zxing-android-embedded:3.3.0'
+    implementation 'com.google.zxing:core:3.2.1'
+
+    implementation 'com.android.support:multidex:1.0.1'
+
+    implementation 'com.android.support:appcompat-v7:24.2.1'
+    implementation 'com.android.support:support-v4:24.2.1'
+    implementation 'com.android.support:design:24.2.1'
+
+    implementation files('libs/jcifs-1.1.11.jar')
+    implementation files('libs/logger.jar')
+    implementation files('libs/mint-4.0.9.jar')
+}

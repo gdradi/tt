@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error">error</string>
+    <string name="execute_action_test">Start Test</string>
+    <string name="new_test">New Test</string>
+    <string name="nfc_disabled">NFC not enabled. Pleaso go to the settings and enable it.</string>
+    <string name="nfc_scanning">Searching for NFC tag...</string>
+    <string name="no_nfc">NFC not present on this device</string>
+    <string name="save_action_result_progress_waiting">Saving results..</string>
+    <string name="serialnumber_label">Serial Number</string>
+    <string name="setup_session_progress_waiting">Configuring...</string>
+    <string name="scan">Scan</string>
+    <string name="placeholder">" "</string>
+    <string name="qrcode_scan">Scan QR Code</string>
+    <string name="nfc_scan">Scan NFC</string>
+    <string name="configuring_error">Error during the configuration. Please check the device connection.</string>
+    <string name="ok_text">Ok</string>
+    <string name="waring">Warning</string>
+    <string name="no_code_test_found">There are no QR Code or NFC on this equipment. Please verify and check the test settings.</string>
+    <string name="nfc_not_valid_error">Ridden NFC not valid. Please check and retry.</string>
+    <string name="completed_test_title">Test Completed</string>
+    <string name="completed_test_message">Equipment Codes and Tags test completed.</string>
+    <string name="qr_code_not_valid_error">Ridden QR Code not valid. Please check and retry.</string>
+    <string name="save_completed_error">Error during result saving. Please retry.</string>
+    <string name="save_completed_success">Result successfully saved</string>
+    <string name="save_title">Save Completed</string>
+    <string name="services_error">Error during the communication with services. Please verify the device connection.</string>
+    <string name="next">Next</string>
+    <string name="retry">Retry</string>
+    <string name="qr_code_valid_title">QRCode valid (%1$d/%2$d)</string>
+    <string name="qr_code_valid_msg">"QR code read is valid "</string>
+    <string name="nfc_valid_msg">NFC tag value read is valid</string>
+    <string name="nfc_valid_title">Valid TAG (%1$d/%2$d)</string>
+</resources>

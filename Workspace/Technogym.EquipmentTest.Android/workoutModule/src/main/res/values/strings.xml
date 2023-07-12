@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WorkoutModule</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="dialog_scan_title">Seleziona un accessorio</string>
+    <string name="dialog_scan_cancel">Annulla</string>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        style="@android:style/Theme.DeviceDefault"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+
+        <TextView
+            android:id="@+id/devices_scan_title"
+            style="@android:style/TextAppearance.DeviceDefault.Widget.TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/dialog_scan_title"
+            android:textSize="24sp" />
+
+        <ProgressBar
+            android:id="@+id/devices_scan_title_spin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" >
+        </ProgressBar>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/devices_list"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <Button
+        android:id="@+id/devices_scan_cancel_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:text="@string/dialog_scan_cancel"
+        android:textSize="22sp" />
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyRunBluetoothLibrary</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="dialog_scan_title">Seleziona un accessorio</string>
+    <string name="dialog_scan_cancel">Annulla</string>
+
+    <!-- ERRORS -->
+
+    <string name="bt_connection_error_label">Errore Bluetooth</string>
+    <string name="bt_connection_failed_label">Impossibile instaurare una connessione con l\'attrezzo. Assicurarsi che i dispositivi siano accoppiati.</string>
+
+    <!-- SAMPLE STRINGS -->
+
+    <string name="sample_placeholder">Sto scannando i dispositivi bluetooth alla ricerca del myrun!</string>
+
+</resources>

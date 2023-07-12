@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_auth"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.technogym.equipmenttest.photo.app.activities.AuthActivity"
+    android:background="@color/background_blue_color">
+
+    <TextView
+        android:id="@+id/txtViewSn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/serialnumber_label"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/header_orange_label_color"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="@string/placeholder"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editTxtSerial"
+        android:singleLine="true"
+        android:layout_below="@+id/txtViewSn"
+        android:layout_alignParentStart="true"
+        android:selectAllOnFocus="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/white"
+        android:gravity="left|center_vertical"
+        android:textSize="24sp" />
+
+    <Button
+        android:text="@string/scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTxtSerial"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnScanSN"
+        android:background="@color/header_orange_label_color"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/execute_capture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnStartTest"
+        android:background="@color/header_orange_label_color"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:layout_below="@+id/btnScanSN"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name" translatable="false">Collaudo Photos - 2.0.11 Demo</string>
+
+    <string name="serialnumber_label">Serial Number</string>
+    <string name="scan">Scan</string>
+    <string name="placeholder">" "</string>
+    <string name="execute_capture">Avvia</string>
+    <string name="setup_session_progress_waiting">Configurazione in corso...</string>
+    <string name="configuring_error">Errore durante la configurazione. Verificare la connessione del dispositivo</string>
+    <string name="error">Errore</string>
+    <string name="ok_text">Ok</string>
+    <string name="no_actions_found">Su questa macchina non deve essere verificata alcuna immagine. Controllare e verificare.</string>
+    <string name="test_text">Message in a Bottle</string>
+    <string name="upload_error">Errore durante l\'upload della foto</string>
+    <string name="saving_image_progress">Salvataggio della foto in corso...</string>
+    <string name="saved_image_ok">Salvataggio della foto riuscito con successo</string>
+    <string name="save_image_title">Salvataggio Foto</string>
+    <string name="saved_image_ko">Salvataggio foto non riuscito. Verificare la connessione e riprovare.</string>
+    <string name="photo_capture_completion_title">Cattura Fotografie Completata</string>
+    <string name="photo_capture_completion_message">Cattura foto completata con successo</string>
+    <string name="help_menu_item_title">Help</string>
+
+</resources>

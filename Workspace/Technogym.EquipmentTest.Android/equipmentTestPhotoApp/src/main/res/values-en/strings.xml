@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="scan">Scan</string>
+    <string name="placeholder">" "</string>
+    <string name="serialnumber_label">Serial Number</string>
+    <string name="execute_capture">Start</string>
+    <string name="setup_session_progress_waiting">Configuring...</string>
+    <string name="configuring_error">Error during the configuration. Please check the device connection.</string>
+    <string name="error">Error</string>
+    <string name="ok_text">Ok</string>
+    <string name="no_actions_found">There are no images to verify on this equipment. Please verify and check the test settings.</string>
+    <string name="test_text">Message in a Bottle</string>
+    <string name="upload_error">Error during the photo upload. Please check the device connection and retry,</string>
+    <string name="saving_image_progress">Saving photo...</string>
+    <string name="saved_image_ok">Image successfully saved</string>
+    <string name="save_image_title">Saving Photo</string>
+    <string name="saved_image_ko">Photo saving failed. Please check the connection and retry.</string>
+    <string name="photo_capture_completion_title">Photo Capture Completed</string>
+    <string name="photo_capture_completion_message">Photo capture successfully completed</string>
+    <string name="help_menu_item_title">Help</string>
+</resources>

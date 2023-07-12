@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="electricBlue">#8Acdeb</color>
+    <color name="holoBlue">#33b5e5</color>
+    <color name="lightGray">#555555</color>
+    <color name="green">#00ff00</color>
+    <color name="dark_green">#003300</color>
+    <color name="white">#ffffff</color>
+    <color name="systemSettings">#ffff77</color>
+    <color name="userSettings">#8Acdeb</color>
+    <color name="hersSettings">#77ff77</color>
+    <color name="COLOR_UNSELECTED">#00FF0000</color>
+    <color name="COLOR_SELECTED">#20FFFFFF</color>
+
+    <!-- NETWORK -->
+    <color name="buttons_view_bk">@android:color/darker_gray</color>
+    <color name="content_bk">@android:color/background_light</color>
+
+    <!-- FULLSCREEN SELECT EQUIPMENT -->
+    <color name="unselectedEquipment">#f080</color>
+    <color name="currentEquipment">#f800</color>
+
+</resources>
